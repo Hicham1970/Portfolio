@@ -184,5 +184,13 @@ section .header{
 }
 .features .card a:hover{
     color: #1e40af;
+}
+.sub-header{
+    max-width: 600px;
+    margin: auto;
+    text-align: center; 
+    color: #ccc;
+}
+.pricing{
     
 }
