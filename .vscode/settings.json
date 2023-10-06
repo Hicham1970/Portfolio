@@ -2,5 +2,7 @@
     "liveServer.settings.port": 5501,
     "cSpell.words": [
         "quibusdam"
-    ]
+    ],
+    "files.autoSave": "onFocusChange",
+    "editor.definitionLinkOpensInPeek": true
 }
