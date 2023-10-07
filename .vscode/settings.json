@@ -4,5 +4,6 @@
         "quibusdam"
     ],
     "files.autoSave": "onFocusChange",
-    "editor.definitionLinkOpensInPeek": true
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
