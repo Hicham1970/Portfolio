@@ -24,3 +24,25 @@ link2.addEventListener("click", () => {
 link3.addEventListener("click", () => {
   scrollToElement(".column");
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Use unique IDs for each button
+  const btn1 = document.getElementById("btn1");
+  const btn2 = document.getElementById("btn2");
+  const btn3 = document.getElementById("btn3");
+
+  btn1.addEventListener("click", function (event) {
+    event.preventDefault();
+    window.open("join.html", "_blank");
+  });
+
+  btn2.addEventListener("click", function (event) {
+    event.preventDefault();
+    window.open("join.html", "_blank");
+  });
+
+  btn3.addEventListener("click", function (event) {
+    event.preventDefault();
+    window.open("join.html", "_blank");
+  });
+});
